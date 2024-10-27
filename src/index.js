@@ -338,9 +338,6 @@ function loadData() {
   
   quests = [
     new Response("Explore My Résumé", () => action = showResume, nextSpeech, 0x000000, 0),
-    new Response("Venture to the Orient", () => action = showChinese, nextSpeech, 0x000000, 0),
-    new Response("Engage in Warfare", () => action = engageWar, nextSpeech, 0x000000, 0),
-    new Response("Seek the Holy Grail", () => action = seekGrail, nextSpeech, 0x000000, 0)
   ];
   
   colors = [
